@@ -6,7 +6,7 @@
 
 /* ************************** Macro definitions ************************ */
 
-#define MAX_COLORPAIR_NAME_CHARS 12;
+#define MAX_COLORPAIR_NAME_CHARS 12
 
 /* ************************** Function definitions ************************ */
 
