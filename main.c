@@ -8,6 +8,12 @@
 
 #define MAX_COLORPAIR_NAME_CHARS 12
 
+/* ************************** External Functions ************************ */
+extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
+extern int GetPairNumberFromColor(const ColorPair* colorPair);
+extern ColorPair GetColorFromPairNumber(int pairNumber);
+extern void PrintColorCodingManual();
+
 /* ************************** Function definitions ************************ */
 
 int main() {
@@ -19,10 +25,6 @@ int main() {
 
     return 0;
 }
-
-extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
-extern int GetPairNumberFromColor(const ColorPair* colorPair);
-extern ColorPair GetColorFromPairNumber(int pairNumber);
 
 	void testNumberToPair(int pairNumber,enum MajorColor expectedMajor,enum MinorColor expectedMinor)
 {
