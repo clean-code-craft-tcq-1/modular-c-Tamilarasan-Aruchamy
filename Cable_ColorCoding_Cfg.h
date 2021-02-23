@@ -8,4 +8,3 @@ typedef struct {
     enum MinorColor minorColor;
 } ColorPair;
 
-const int MAX_COLORPAIR_NAME_CHARS = 12;
